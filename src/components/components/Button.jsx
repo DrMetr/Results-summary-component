@@ -1,11 +1,13 @@
 function Button() {
 return (
-    <>
-    <button class='bg-DarkGrayBlue rounded-xl h-[2lh] flex items-center text-white font-semibold'>
+    <button class='bg-DarkGrayBlue hover:bg-LightSlateBlue
+                    rounded-full h-[2lh] 
+                    text-white font-semibold
+                    w-full text-center'>
         Continue
     </button>
-    </>
 )
 }
 
 export default Button
+

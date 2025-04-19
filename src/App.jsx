@@ -1,6 +1,3 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
 import Result from './components/Result.jsx'
 import Summary from './components/Summary.jsx'
@@ -8,14 +5,13 @@ import Summary from './components/Summary.jsx'
 function App() {
 
   return (
-    <>
-    <div class='md:bg-PaleBlue'>
-    <div class='card flex flex-row'>
+    <div class='card flex flex-col md:flex-row 
+                w-full md:min-w-[500px] md:w-[45vw] 
+                h-full md:h-[60vh] 
+                rounded-xl bg-white'>
       <Result />
       <Summary />
       </div>
-    </div>
-    </>
   )
 }
 

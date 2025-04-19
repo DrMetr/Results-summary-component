@@ -6,16 +6,16 @@ import Visual from './components/Visual.jsx'
 
 function Summary() {
 return (
-    <>
-    <div class='flex flex-col gap-[1rem] bg-white w-full md:w-[50vw]'>
-        Summary
+    <div class='flex flex-col items-center gap-[1rem] 
+                w-full p-[2rem]'>
+        <h2 class='self-start text-DarkGrayBlue 
+                  font-bold text-xl'>Summary</h2>
         <Reaction />
         <Memory />
         <Verbal />
         <Visual />
         <Button />
     </div>
-    </>
 )
 }
 
